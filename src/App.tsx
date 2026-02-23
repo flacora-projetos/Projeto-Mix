@@ -20,7 +20,7 @@ const IMAGES = {
   hero: "https://lh3.googleusercontent.com/d/1SnohHVEjLqBJyHY-v2xgX6vZl79ft8H1",
   about: "https://lh3.googleusercontent.com/d/1WealQsgSvPtc6vJ7XJ1TeIaj_UJ3S-py",
   gallery1: "https://lh3.googleusercontent.com/d/1eeufT6USDMRno7bFaU5_4jaGSl1smPaR",
-  gallery2: "https://lh3.googleusercontent.com/d/1f9UaF7VXWckAnExvoeNup8lV9-Fw2m7C",
+  gallery2: "https://lh3.googleusercontent.com/d/1Yc0JLkQ_oygRiZ3aQVgjizqKIBwBT5vP",
   gallery3: "https://lh3.googleusercontent.com/d/1fa3UTm7QIMWqUkEzgoMR-NVklInlnfye",
 };
 
@@ -251,7 +251,7 @@ export default function App() {
             
             <div className="grid grid-cols-2 gap-4">
               <img src={IMAGES.gallery1} alt="Show ao vivo" className="rounded-2xl object-cover aspect-square w-full" referrerPolicy="no-referrer" />
-              <img src={IMAGES.about} alt="Apresentação" className="rounded-2xl object-cover object-[65%_top] aspect-square w-full translate-y-8" referrerPolicy="no-referrer" />
+              <img src={IMAGES.gallery2} alt="Apresentação" className="rounded-2xl object-cover aspect-square w-full translate-y-8" referrerPolicy="no-referrer" />
             </div>
           </div>
         </div>
